@@ -45,7 +45,7 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 16px;
     padding: 16px;
-    max-width: 600px;
+    max-width: 1000px;
     margin: 0 auto;
   }
 
@@ -55,6 +55,25 @@
     text-align: center;
     border: 1px solid #ddd;
     border-radius: 8px;
+  }
+
+  .item-listing {
+    text-align: center;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #00cf00;
+  }
+
+  .item-listing img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 16px;
+  }
+
+  .itme-listing p {
+    margin: 0;
   }
 
   .under-construction{
