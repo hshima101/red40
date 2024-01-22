@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    background: #202020;
+    font-family: 'Noto Sans HK', sans-serif;
+  }
+
+  header {
+    background: inherit;
+    height: 66px;
+    padding: 1px;
+  }
+  
+  h1, h2, h3, h4, h5, h6{
+    font-family: 'Candal',serif;
+    color: #00cf00;
+    margin: 5px;
+  }
+
+  .background-section {
+    background-image: url('images/testImages/hog.png');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /*text-align: center;*/
+  }
+
+  .text-section {
+    padding: 2em;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+
+  .grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .grid-item{
+    background-color: #00cf00;
+    padding: 16px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+
+  .under-construction{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    padding: 20px;
+    border: 1px solid #dc3545;
+    display: none;
+  }
+
+  @media (min-width: 601px){
+    .grid-container{
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
