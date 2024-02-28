@@ -38,6 +38,7 @@ header a {
 #cart {
   display: none;
   text-align: left;
+  padding: 20px 10px;
 }
 
 .add-2-cart {
@@ -50,7 +51,7 @@ header a {
 }
 
 .cart-container:hover #cart {
-  display: inline-block;
+  display: block;
 }
 
 footer {
@@ -104,3 +105,13 @@ html, body {
   margin: 0px;
   padding: 0px;
 }
+
+.cart-container a{
+  display: none;
+  text-align: center;
+}
+
+.cart-container:hover a{
+  display: inline-block;
+}
+
