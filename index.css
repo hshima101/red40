@@ -4,6 +4,7 @@
 
 header {
   text-align: center;
+  padding: 1px;
 }
 
 header img {
@@ -115,3 +116,47 @@ html, body {
   display: inline-block;
 }
 
+/*background image section formatting*/
+.background-section {
+  background-image: url('images/backgrounds/green.png');
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  /*text-align: center;*/
+}
+
+.reviews{
+  text-align: center;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.item-listing {
+  text-align: center;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #cd7f32;
+}
+
+.item-listing img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.itme-listing p {
+  margin: 0;
+}

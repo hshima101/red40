@@ -1,0 +1,125 @@
+* {font-family: "Satisfy", cursive;
+    box-sizing: border-box;
+  }
+  
+  html{
+    background-color: #ceb27e;
+  }
+
+  header {
+    text-align: center;
+  }
+  
+  header img {
+    width: 200px;
+    border-radius:100px
+  }
+  
+  header a {
+    display:inline-block;
+    margin:0px 20px;
+    border:1px solid #a38d63;
+    padding:8px;
+    text-decoration: none;
+    color:black;
+    background-color: #b69c6d;
+    border-radius: 4px;
+    width: 150px;
+  }
+  
+  .cart-container {
+    position: fixed;
+    display: inline-block;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    text-align: right;
+    cursor: pointer;
+    background-color: #b69c6d;
+    border-radius: 4px;
+  }
+  
+  #cart {
+    display: none;
+    text-align: left;
+    padding: 20px 10px;
+  }
+  
+  .add-2-cart {
+    cursor: pointer;
+  
+  }
+  
+  .add-2-cart:hover {
+    color:aqua;
+  }
+  
+  .cart-container:hover #cart {
+    display: block;
+  }
+  
+  footer {
+    text-align:center;
+  font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .current-page{
+    background-color: #ceb27e;
+  }
+  
+  header a:hover{
+    color:aqua;
+  }
+
+  main{
+    width: 900px;
+    margin: 20px auto;
+  }
+  
+  #image-carousel{
+    width: 100%;
+    margin: 20px 0px;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  html {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body {
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+  }
+  
+  .cart-container a{
+    display: none;
+    text-align: center;
+  }
+  
+  .cart-container:hover a{
+    display: inline-block;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  /*background image section formatting*/
+  .background-section {
+    background-image: url('images/backgrounds/tree.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /*text-align: center;*/
+  }
